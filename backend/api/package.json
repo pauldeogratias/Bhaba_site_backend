@@ -1,13 +1,11 @@
 {
   "name": "meilisearch-backend",
   "version": "1.0.0",
-  "description": "Backend API for MeiliSearch integration",
-  "main": "backend/api/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node backend/api/index.js",
-    "dev": "nodemon backend/api/index.js",
-    "test": "echo \"Error: no tests specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "engines": {
     "node": ">=18.0.0"
