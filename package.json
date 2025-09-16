@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node backend/api/index.js",
     "build": "npm run generate-sitemap && next build",
-    "start": "next start",
+    "start": "node backend/api/index.js",
     "lint": "next lint",
     "api": "node api/index.js",
     "dev:api": "nodemon api/index.js",
